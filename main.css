@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap');
+
+
+
+*{
+  padding: 12px 14px;
+  background-color: #3aafa9;
+  font-family: 'Merriweather', serif;
+}
+
+.banner{
+  font-size: 32px;
+  text-align: center;
+  background-image: url(./banner.jpg);
+}
+
+h1, h2, h3, h4{
+  color: #feffff;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; 
+}
+
+h5{
+  padding: 0 0;
+}
+
+div{
+  padding: 0 0;
+}
+
+
+
+#task img{
+  display: flex;
+  margin: auto;
+  margin-bottom: 1.5%;
+}
+
+#task img{
+  justify-content: center;
+}
+
+article, aside, section{
+  padding: 0 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+p{
+  padding: 0;
+  color:#17252A
+}
+
+a{
+  padding: 0 0;
+}
+
+li{
+  padding: 2px 2px;
+}
+
+strong{
+  padding: 0 0;
+}
+
+.menu {
+  display: inline-block;
+  padding: 0 0px;
+}
+
+.menu ul{
+  padding: 0 0;  
+}
+
+.menu li {
+  display: inline-block;
+  background-color: #2b7a78;
+  border-radius: 15% 5%;
+}
+
+.menu li a{
+  margin: 35px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #2b7a78;
+  padding: 0 0;
+}
+
+.menu a:link, a:visited{
+  color: #feffff;
+}
+
+.menu a:hover {
+  color: orange;
+}
+
+.menu a[href="#submission"] {
+  color: #17252A;
+}
+
+
+.quick_links ul {
+  display: block;
+  padding: 0 0;
+}
+
+.quick_links li {
+  display: block;
+}
+
+.quick_links a.active{
+  color: green;
+}
+
+.quick_links li:hover a {
+  color: orange;
+}
+
+.categories ul {
+  display: block;
+  columns: 2;
+  padding: 0 0;
+}
+
+.categories li {
+  display: block;
+}
+
+.categories a.active{
+  color: green;
+}
+
+.categories li:hover a {
+  color: orange;
+}
+
+#main-heading {
+  text-align: center;
+}
+
+hr{
+  padding: 0 0;
+}
+
+.imp{
+  font-size: 28px;
+  text-align: center;
+  color: #17252A;
+}
+
+#deadline{
+  text-align: center;
+}
+
+#text p {
+  margin-top: 30px;
+  padding: 15px;
+  background: blanchedalmond;
+}
+
+h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  height: 100px;
+  font-size: smaller;
+}
+
+footer div{
+  margin-left: 20px;
+}
+
+footer ul{
+  display: block;
+}
+
+iframe{
+  padding: 0 0;
+  height: 50%;
+  width: 50%;
+  
+}
+
+table{
+  padding: 0 0;
+}
+
+#grading{
+  justify-content: center;
+}
+
+tr{
+  padding: 0 0;
+}
+
+
+#submission img{
+  display: flex;
+  margin: auto;
+  width: 200px;
+  height: 300px;
+}
+
+.fullname{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.info img{
+  float: center;
+}
+
+i{
+  padding: 0 0;
+}
