@@ -225,3 +225,98 @@ tr{
 i{
   padding: 0 0;
 }
+
+/* Medida Queries */
+
+@media (min-width: 577px) and (max-width: 992px) {
+  * {
+    padding: 0.4rem;
+  }
+  .banner {
+    padding: 2rem 1rem;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: .8rem;
+  }
+  .menu li{
+    display: block;
+    border-radius: 0.25rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+  }
+  table {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  table th {
+    text-align: left;
+  }
+  footer {
+    height: auto;
+    float: left;
+  }
+  footer div {
+    margin-left: 0;
+  }
+  .quick_links {
+    margin-left: 2.1rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  * {
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+  /* exception img */
+  .logo img{
+    width: auto;
+  }
+  .banner {
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .menu li{
+    display: block;
+    border-radius: 0.25rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+  }
+  #task img {
+    margin-bottom: 1rem;
+  }
+  #submission img {
+    margin-top: 1rem;
+  }
+  table {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  table th {
+    text-align: left;
+  }
+  footer {
+    flex-direction: column;
+    float: left;
+    height: auto;
+
+  }
+  footer div {
+    margin-left: 0;
+  }
+  .quick_links ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
