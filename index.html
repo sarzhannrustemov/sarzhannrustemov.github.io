@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+            <div class="menu-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="pages/blog.html">Blog</a></li>
+              <li><a href="index.html#achievements">Achievements</a></li>
+              <li><a href="index.html#certifications">Certifications</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="profile-picture">
+          <img src="images/profile.jpg" alt="My photo">
+        </div>
+        <div class="profile-description">
+          <h2>About Me</h2>
+          <p>I am a graduating student majoring in Biology with a specialization in Microbiology and Immunology. Currently, I am working as a Research Assistant at the university lab where I have gained extensive experience in performing various laboratory techniques, including cell culture, PCR, and Western blotting. I have also contributed to multiple research projects and published a peer-reviewed article in a scientific journal. My ultimate goal is to become a medical doctor with a specialization in infectious diseases to make a positive impact on public health. In my free time, I enjoy volunteering at local clinics and reading medical journals to stay up-to-date on the latest advances in the field.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="blog-section">
+        <h2 class="section-title">My Blog</h2>
+        <p class="section-description">Welcome to my blog, where I share my academic and career life experiences and achievements. From my research projects in the lab to my volunteer work in the community, I hope to inspire others with my journey towards becoming a doctor and making a difference in the world.</p>
+        <a href="pages/blog.html" class="btn btn-primary">Read More</a>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2>My Achievements</h2>
+      <ul>
+        <li>🥇 First place in the National Biology Olympiad</li>
+        <li>🏆 Best poster award at the International Conference on Life Sciences</li>
+        <li>🥈 Second place in the University Hackathon</li>
+        <li>📜 Dean's List for academic excellence in Biology</li>
+        <li>💰 Recipient of the University Research Grant</li>
+        <li>🎤 Presenter at the Annual Student Research Symposium</li>
+        <li>📄 Published paper in the Journal of Experimental Biology</li>
+        <li>🌎 Participant in the Medical Mission Trip to Peru</li>
+        <li>🤝 Volunteer at the local hospital</li>
+        <li>👨‍👩‍👧‍👦 President of the Biology Club</li>
+      </ul>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="cert-container">
+        <div class="cert">
+          <h3>Introduction to Genetics and Evolution</h3>
+          <p>Duke University via Coursera</p>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/XXXXXXXXXXXX">Verify</a>
+        </div>
+        <div class="cert">
+          <h3>Medical Neuroscience</h3>
+          <p>Duke University via Coursera</p>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/XXXXXXXXXXXX">Verify</a>
+        </div>
+        <div class="cert">
+          <h3>Biology and Behaviour: The Neurological and Evolutionary Basis of Individuality</h3>
+          <p>The University of Queensland</p>
+          <a href="https://www.edx.org/course/biology-and-behaviour-the-neurological-and-evol">Verify</a>
+        </div>
+        <div class="cert">
+          <h3>Certificate in Data Science</h3>
+          <p>Johns Hopkins University via Coursera</p>
+          <a href="https://www.coursera.org/verify/specialization/HJWU6T9X9RNU">Verify</a>
+        </div>
+        <div class="cert">
+          <h3>Machine Learning Course</h3>
+          <p>Stanford University via Coursera</p>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/4YYEHR4WT4D4">Verify</a>
+        </div>
+        <div class="cert">
+          <h3>Certified Ethical Hacker (CEH)</h3>
+          <p>EC-Council</p>
+          <a href="https://www.eccouncil.org/verify-certification/">Verify</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <button type="submit" id="submit-btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/sarzhan-rustemov-2380b21b0/" target="_blank"><img src="images/linkedin.jpg" alt="LinkedIn Logo" title="LinkedIn"></a>
+        <a href="https://www.instagram.com/sarzhann/" target="_blank"><img src="images/instagram.webp" alt="Instagram Logo" title="Instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=100092308357864/" target="_blank"><img src="images/facebook.webp" alt="Facebook Logo" title="Facebook"></a>
+      </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
